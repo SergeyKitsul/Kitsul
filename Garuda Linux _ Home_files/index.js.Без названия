@@ -1,0 +1,4 @@
+let goToTop=document.querySelector("#f-btn");goToTop.style.color="blue"
+window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>30||document.documentElement.scrollTop>30){goToTop.style.display="block";}else{goToTop.style.display="none";}}
+function scrollPageToTop(){console.log("clicked")
+document.body.scrollTop=0;document.documentElement.scrollTop=0;}
