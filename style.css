@@ -9,14 +9,14 @@ body {
 }
 
 .nav,
-.slider {
+.slider {.slider h1
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;
-  background-color: #1e1f26;
+  background-color: #051242;
   text-align: center;
   padding: 0 2em;
 }
@@ -28,7 +28,7 @@ body {
   margin: 0;
   padding-bottom: 0.5rem;
   letter-spacing: 0.5rem;
-  color: #03dac6;
+  color: #fff;
   transition: all 0.3s ease;
   z-index: 3;
 }
@@ -246,29 +246,4 @@ a {
 
 
 
-#back2Top {
-    width: 40px;
-    line-height: 40px;
-    overflow: hidden;
-    z-index: 999;
-    display: none;
-    cursor: pointer;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    position: fixed;
-    bottom: 50px;
-    right: 0;
-    background-color: #ffffff;
-    color: #000000;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-}
-#back2Top:hover {
-    background-color: #DDF;
-    color: #000;
-}
 
