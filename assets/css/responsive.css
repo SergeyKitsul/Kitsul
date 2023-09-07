@@ -116,10 +116,20 @@
   .choose-img {
     margin-bottom: 30px;
   }
-  .choose-area .choose-content .faq-accordion .accordion .accordion-item .accordion-title {
+  .choose-area
+    .choose-content
+    .faq-accordion
+    .accordion
+    .accordion-item
+    .accordion-title {
     font-size: 15px;
   }
-  .choose-area .choose-content .faq-accordion .accordion .accordion-item .accordion-content {
+  .choose-area
+    .choose-content
+    .faq-accordion
+    .accordion
+    .accordion-item
+    .accordion-content {
     font-size: 14px;
   }
   .home-process-area .single-process .icon {
@@ -170,7 +180,7 @@
   .home-contact-area .contact-img {
     margin-bottom: 30px;
     -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
   .home-contact-area .content {
     padding: 20px;
@@ -255,7 +265,12 @@
     margin-right: 0;
     margin-bottom: 5px;
   }
-  .blog-details-area .blog-details-desc .article-content .entry-meta ul li::before {
+  .blog-details-area
+    .blog-details-desc
+    .article-content
+    .entry-meta
+    ul
+    li::before {
     display: none;
   }
   .blog-details-area .blog-details-desc .article-content h3 {
@@ -313,7 +328,10 @@
   .blog-details-area .comments-area .comment-respond .comment-reply-title {
     font-size: 19px;
   }
-  .blog-details-area .comments-area .comment-respond .comment-reply-title::before {
+  .blog-details-area
+    .comments-area
+    .comment-respond
+    .comment-reply-title::before {
     left: -20px;
   }
   .blog-details-area .comments-area .comment-respond .comment-form-author {
@@ -574,10 +592,20 @@
   .choose-img {
     margin-bottom: 30px;
   }
-  .choose-area .choose-content .faq-accordion .accordion .accordion-item .accordion-title {
+  .choose-area
+    .choose-content
+    .faq-accordion
+    .accordion
+    .accordion-item
+    .accordion-title {
     font-size: 15px;
   }
-  .choose-area .choose-content .faq-accordion .accordion .accordion-item .accordion-content {
+  .choose-area
+    .choose-content
+    .faq-accordion
+    .accordion
+    .accordion-item
+    .accordion-content {
     font-size: 14px;
   }
   .home-process-area .single-process .icon {
@@ -629,7 +657,7 @@
   .home-contact-area .contact-img {
     margin-bottom: 30px;
     -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
   .home-contact-area .content {
     padding: 20px;
@@ -693,7 +721,7 @@
     font-size: 15px;
     line-height: 40px;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   .slider-area-2 .owl-nav button.owl-prev {
     width: 40px;
@@ -701,7 +729,7 @@
     font-size: 15px;
     line-height: 40px;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   .technology-area .technology-content h2 {
     font-size: 25px;
@@ -905,7 +933,7 @@
     background-color: #fff;
     padding: 5px 0;
     -webkit-box-shadow: 1px 20px 20px 3px rgba(0, 0, 0, 0.05);
-            box-shadow: 1px 20px 20px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 20px 20px 3px rgba(0, 0, 0, 0.05);
   }
   .mean-container a.meanmenu-reveal {
     padding: 15px 15px 0 0;
@@ -921,7 +949,7 @@
   }
   .mobile-nav nav .navbar-nav {
     -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     margin-top: 8px !important;
     max-height: 50vh;
     overflow-y: scroll;
@@ -947,7 +975,11 @@
 /*
 Continuer Custom Width Area Style*/
 @media only screen and (min-width: 1300px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
     max-width: 1320px;
   }
 }
