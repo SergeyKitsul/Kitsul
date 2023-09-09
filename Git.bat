@@ -1,4 +1,5 @@
-cd "C:\OSPanel\domains\GitHub\Kitsul"
-git add --all
-git commit -m "%date% %time% %txtcommit%"
+cd %SRC%
+set /P txtcommit="Введите текст комментария: "
+git add .
+git commit -m "%date% %time%: %txtcommit%"
 git push
