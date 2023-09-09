@@ -1,4 +1,3 @@
-cd %SRC%
 set /P txtcommit="Введите текст комментария: "
 git add .
 git commit -m "%date% %time%: %txtcommit%"
